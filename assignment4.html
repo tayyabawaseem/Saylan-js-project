@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variable Naming Rules</title>
+</head>
+
+<body>
+    <h1>Rules for naming JS variables</h1>
+    <p>Variable names can only contain <strong>letters</strong>, <strong>numbers</strong>, <strong>dollar signs ($)</strong> and <strong>underscores (_)</strong>.</p>
+    <p>For example $my_1stVariable</p>
+    <p>Variables must begin with a <strong>letter</strong>, <strong>dollar sign ($)</strong> or <strong>underscore (_)</strong>. For example $name, _name or name</p>
+    <p>Variable names are case <strong>sensitive</strong>.</p>
+    <p>Variable names should not be JS <strong>keywords</strong>.</p>
+
+    <script>
+        // 1. Declare 3 variables in one statement.
+        var var1, var2, var3;
+
+        // 2. Declare 5 legal & 5 illegal variable names.
+
+        // Legal variable names
+        var myVariable;
+        var _privateVar;
+        var $dollarVar;
+        var camelCaseVar;
+        var var123;
+
+        // Illegal variable names (uncommenting these will cause errors)
+        // var 123var;    // Cannot start with a number
+        // var my-var;    // Hyphens are not allowed
+        // var var name;  // Spaces are not allowed
+        // var @var;      // Special characters (except $ and _) are not allowed
+        // var break;     // Reserved keyword
+
+        // 3. Display naming rules in the browser
+    
+
+        // Display the rules in the browser
+    
+    </script>
+</body>
+
+</html>
